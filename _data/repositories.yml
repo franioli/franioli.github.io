@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - franioli
+  - labmgf-polimi
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - franioli/icepy4d
+  - 3DOM-FBK/deep-image-matching
+  - Tars4815/belvedere-summer-school
+  - franioli/impreproc
+  - 3DOM-FBK/COLMAP_SLAM

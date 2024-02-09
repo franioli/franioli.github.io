@@ -2,31 +2,28 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Francesco Ioli
     - name: Date of Birth
-      value: 14th March 1879
+      value: 03/09/1995
     - name: Languages
-      value: English, German
+      value: Italian, English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Politencio di Milano, DICA Department, Milan, Italy
+      year: 2020-now
       description:
         - Description 1.
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+
+    - title: BSc in Environmental and Land Planning Engineering 
+      institution: Politencio di Milano, DICA Department, Milan, Italy
+      year: 2017
 
 - title: Experience
   type: time_table
@@ -41,15 +38,16 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+
+    - title: Visiting PhD student
+      institution: University of Twente, ITC Faculty, Enschede, The Netherlands
+      year: 2022
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    - title: Teaching assistant
+      institution: Politencio di Milano, DICA Department, Milan, Italy
       year: 1917-1933
 
     - title: Professor of Theoretical Physics
@@ -79,19 +77,19 @@
       items:
         - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Mountains, Climbing, Photography

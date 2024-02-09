@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Francesco Ioli",
+    "label": "PhD Student in Geoinformatics",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "francesco.ioli@polimi.it",
+    "phone": "",
+    "url": "https://franioli.github.io/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
@@ -22,7 +22,40 @@
       }
     ]
   },
-  "work": [
+  "education": [
+    {
+      "institution": "Politencio di Milano, DICA Department",
+      "location": "Milan, Italy",
+      "url": "https://www.polimi.it/",
+      "area": "Geoinformatics",
+      "studyType": "PhD",
+      "startDate": "2020",
+      "endDate": "now",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "University of Twente, ITC Faculty",
+      "location": "Milan, Italy",
+      "url": "https://www.itc.nl/",
+      "studyType": "Visiting PhD",
+      "startDate": "2020",
+      "score": "110/110 cum laude",
+      "courses": [""]
+    },
+    {
+      "institution": "Università degli Studi di Milano",
+      "location": "Milan, Italy",
+      "url": "https://www.unimi.it/",
+      "area": "Geoinformatics",
+      "studyType": "Bachelor",
+      "startDate": "2015",
+      "endDate": "2018",
+      "score": "110/110 cum laude",
+      "courses": [""]
+    }
+  ],  
+  "Experience": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
@@ -42,19 +75,6 @@
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
