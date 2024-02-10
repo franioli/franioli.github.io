@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student @ <a href='www.polimi.it'>Politecnico di Milano</a>.
+subtitle: PhD student @ <href='#'>Politecnico di Milano</a>.
 
 profile:
   align: right
