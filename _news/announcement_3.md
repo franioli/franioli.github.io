@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended my **PhD thesis** \*"Multi-scale and Multi-temporal Photogrammetry for Alpine Glacier Monitoring"_ at Politecnico di Milano, graduating \_cum laude_.
+Successfully defended my **PhD thesis** \*"Multi-scale and Multi-temporal Photogrammetry for Alpine Glacier Monitoring" at Politecnico di Milano, graduating \_cum laude_.

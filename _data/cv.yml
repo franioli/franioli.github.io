@@ -92,6 +92,16 @@ cv:
           - Contributed to the Glambie-2 Glacier Mass Balance Intercomparison Exercise.
           - Large-scale geospatial processing on Slurm-based HPC clusters.
 
+      - company: Politecnico di Milano
+        position: Teaching Assistant
+        location: Milan, Italy
+        start_date: 2020
+        end_date: 2024
+        summary: Teaching support and independent lecturing for BSc and MSc courses.
+        highlights:
+          - Photogrammetry and UAV Surveying (MSc), Statistics (BSc), 3D Modelling for Architecture (BSc/MSc), GIS (BSc).
+          - Tutor in the Belvedere Glacier summer schools on topographic surveying in mountain environments (2021-2025).
+
       - company: University of Twente, ITC
         position: Visiting PhD Student
         location: Enschede, Netherlands
@@ -106,36 +116,26 @@ cv:
         end_date: 2020-02
         summary: River Engineering group — Particle Image Velocimetry and UAV-based estimation of river-flow discharge from image analysis.
 
-      - company: Politecnico di Milano
-        position: Teaching Assistant
-        location: Milan, Italy
-        start_date: 2020
-        end_date: 2024
-        summary: Teaching support and independent lecturing for BSc and MSc courses.
-        highlights:
-          - Photogrammetry and UAV Surveying (MSc), Statistics (BSc), 3D Modelling for Architecture (BSc/MSc), GIS (BSc).
-          - Tutor in the Belvedere Glacier summer schools on topographic surveying in mountain environments (2021-2025).
-
     Projects:
       - name: Deep-Image-Matching
         summary: Core contributor. Toolbox for multi-view image matching combining traditional and deep-learning algorithms for Structure-from-Motion in complex scenarios.
         highlights:
           - "https://github.com/3DOM-FBK/deep-image-matching"
 
-      - name: ICEpy4D
-        summary: Lead developer. Open-source Python toolkit for 4D glacier monitoring using deep-learning photogrammetry.
+      - name: Belvedere Glacier Open Data & Web-GIS
+        summary: Curated long-term open dataset and interactive web platform for glacier documentation and storytelling.
         highlights:
-          - "https://github.com/franioli/icepy4d"
+          - "https://doi.org/10.5281/zenodo.7842347"
 
       - name: COLMAP-SLAM
         summary: Core contributor. Visual-odometry framework for real-time photogrammetric positioning.
         highlights:
           - "https://github.com/3DOM-FBK/COLMAP_SLAM"
 
-      - name: Belvedere Glacier Open Data & Web-GIS
-        summary: Curated long-term open dataset and interactive web platform for glacier documentation and storytelling.
+      - name: ICEpy4D
+        summary: Lead developer. Open-source Python toolkit for 4D glacier monitoring using deep-learning photogrammetry.
         highlights:
-          - "Zenodo DOI: 10.5281/zenodo.10817029"
+          - "https://github.com/franioli/icepy4d"
 
     Awards:
       - title: MSCA Postdoctoral Fellowship — Seal of Excellence
