@@ -52,7 +52,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-          cache: "pip" # caching pip dependencies
+          # No pip caching: this site has no requirements.txt/pyproject.toml, and
+          # `cache: pip` fails the job when no dependency file exists.
       - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:

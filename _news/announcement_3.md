@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:mortar_board: Successfully defended my **PhD thesis** _"Multi-scale and Multi-temporal Photogrammetry for Alpine Glacier Monitoring"_ at Politecnico di Milano, graduating _cum laude_.
+:mortar*board: Successfully defended my **PhD thesis** *"Multi-scale and Multi-temporal Photogrammetry for Alpine Glacier Monitoring"_ at Politecnico di Milano, graduating \_cum laude_.

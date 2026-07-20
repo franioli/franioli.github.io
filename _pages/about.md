@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Post-doctoral Researcher in Geomatics @ <a href='https://www.dica.polimi.it/' target='_blank'>Politecnico di Milano</a> 
+subtitle: Post-doctoral Researcher in Geomatics @ <a href='https://www.dica.polimi.it/' target='_blank'>Politecnico di Milano</a>
 
 profile:
   align: right
@@ -58,7 +58,6 @@ latest_posts:
 </style>
 
 I am a post-doctoral researcher in Geomatics at the [Dept. of Civil and Environmental Engineering](https://www.dica.polimi.it/) of [Politecnico di Milano](https://www.polimi.it/), where I work on **photogrammetry and computer vision for environmental monitoring**. I currently lead the image-based monitoring work of the **MOHYCAM** project, tackling hydrogeological hazards at the **Belvedere Glacier** (Monte Rosa).
-
 
 My research spans multi-scale 4D monitoring — from low-cost terrestrial time-lapse cameras for high-frequency glacier dynamics to satellite multi-view stereo for regional mass-balance studies. Before returning to Politecnico di Milano I was a post-doc at [CNR IRPI](https://www.irpi.cnr.it/) in Turin, working on glacier-instability risk at the Planpincieux Glacier (Mont Blanc), and at the University of Zurich. I earned my PhD here in 2024, _cum laude_.
 

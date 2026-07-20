@@ -5,7 +5,7 @@ Guidance for Claude Code (claude.ai/code) when working in this repository.
 ## What this repo is
 
 The personal academic website of Francesco Ioli (<https://franioli.github.io>), built on the
-**al-folio v1.x** Jekyll theme. This is a *site*, not the al-folio starter project — it holds only
+**al-folio v1.x** Jekyll theme. This is a _site_, not the al-folio starter project — it holds only
 content and configuration.
 
 **The theme runtime lives in Ruby gems** (`al_folio_core`, `al_folio_cv`, `al_citations`, `al_search`,
@@ -20,14 +20,14 @@ shadowing one adds drift tracking via `.al-folio-overrides.yml`. Prefer, in orde
 
 ## Content map
 
-| What                  | Where                                                          |
-| --------------------- | -------------------------------------------------------------- |
-| Home / bio            | `_pages/about.md`                                               |
-| Publications          | `_pages/publications.md` + `_bibliography/papers.bib`           |
-| CV                    | `_pages/cv.md` + `_data/cv.yml` (**rendercv** schema)           |
-| News                  | `_news/` (short `inline: true` posts)                           |
-| Social links, CV PDF  | `_data/socials.yml`                                             |
-| Assets                | `assets/img/`, `assets/pdf/`                                    |
+| What                 | Where                                                 |
+| -------------------- | ----------------------------------------------------- |
+| Home / bio           | `_pages/about.md`                                     |
+| Publications         | `_pages/publications.md` + `_bibliography/papers.bib` |
+| CV                   | `_pages/cv.md` + `_data/cv.yml` (**rendercv** schema) |
+| News                 | `_news/` (short `inline: true` posts)                 |
+| Social links, CV PDF | `_data/socials.yml`                                   |
+| Assets               | `assets/img/`, `assets/pdf/`                          |
 
 Navigation is intentionally minimal: **About · Publications · CV**. A paper appears on the homepage
 when its BibTeX entry has `selected={true}`.

@@ -32,13 +32,13 @@ bundle exec jekyll serve      # http://127.0.0.1:4000
 
 | What                  | Where                                                            |
 | --------------------- | ---------------------------------------------------------------- |
-| Home / bio            | `_pages/about.md`                                                 |
-| Publications page     | `_pages/publications.md` (entries in `_bibliography/papers.bib`)   |
-| CV page               | `_pages/cv.md` (data in `_data/cv.yml`, rendercv format)           |
-| News items            | `_news/`                                                          |
-| Site settings         | `_config.yml`                                                     |
-| Social links & CV PDF | `_data/socials.yml`                                               |
-| Images, CV PDF        | `assets/img/`, `assets/pdf/`                                      |
+| Home / bio            | `_pages/about.md`                                                |
+| Publications page     | `_pages/publications.md` (entries in `_bibliography/papers.bib`) |
+| CV page               | `_pages/cv.md` (data in `_data/cv.yml`, rendercv format)         |
+| News items            | `_news/`                                                         |
+| Site settings         | `_config.yml`                                                    |
+| Social links & CV PDF | `_data/socials.yml`                                              |
+| Images, CV PDF        | `assets/img/`, `assets/pdf/`                                     |
 
 A publication shows up on the homepage when its BibTeX entry has `selected={true}`.
 
