@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - franioli
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - 3DOM-FBK/deep-image-matching
+  - franioli/icepy4d
+  - 3DOM-FBK/COLMAP_SLAM
+  - franioli/belvedere-glacier-open-data
+  - Tars4815/belvedere-summer-school

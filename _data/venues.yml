@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"RS":
+  url: https://www.mdpi.com/journal/remotesensing
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
+"PFG":
+  url: https://link.springer.com/journal/41064
   color: "#009f36"
+
+"ISPRS":
+  url: https://www.isprs.org/publications/archives.aspx
+  color: "#8c1515"

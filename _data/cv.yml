@@ -1,189 +1,203 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Francesco Ioli
+  label: Post-doctoral Researcher in Geomatics
+  email: francesco.ioli@polimi.it
+  location: Milan, Italy
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Post-doctoral researcher in Geomatics at Politecnico di Milano, specialised in photogrammetry and
+    geoinformatics for environmental monitoring. My work bridges traditional photogrammetry and modern
+    computer vision, with a focus on deep learning for image matching and automated 3D reconstruction
+    pipelines, from low-cost terrestrial sensors to satellite multi-view stereo.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: franioli
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: francesco-ioli-640061160
+    - network: X
+      username: francescoioli
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Politecnico di Milano, Dept. of Civil and Environmental Engineering
+        location: Milan, Italy
+        url: https://www.polimi.it/
+        area: Environmental and Infrastructure Engineering (Geomatics)
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2021
+        end_date: 2024
+        score: cum laude
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Multi-scale and Multi-temporal Photogrammetry for Alpine Glacier Monitoring. Supervisor: prof. L. Pinto; co-supervisor: prof. F. Nex."
+          - Developed an image-based system with low-cost stereo cameras for short-term 4D glacier monitoring, including a daily 3D reconstruction pipeline with extreme-wide baselines using deep-learning feature matching.
+          - Applied UAV photogrammetry to structural health assessment (automated crack detection on concrete bridges) and cultural heritage documentation.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Politecnico di Milano
+        location: Milan, Italy
+        url: https://www.polimi.it/
+        area: Environmental and Land Planning Engineering
+        studyType: MSc
+        start_date: 2017
+        end_date: 2020
+        score: 110/110 cum laude
         highlights:
-          - Description 1.
-          - Description 2.
+          - Major in Land Monitoring and Diagnostics.
+          - "Thesis: Evaluation of Airborne Image Velocimetry approaches with low-cost UAVs in riverine environments (in collaboration with VAW, ETH Zürich)."
+
+      - institution: Politecnico di Milano
+        location: Milan, Italy
+        url: https://www.polimi.it/
+        area: Environmental and Land Planning Engineering
+        studyType: BSc
+        start_date: 2014
+        end_date: 2017
+        score: 102/110
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Politecnico di Milano, Dept. of Civil and Environmental Engineering
+        position: Post-doctoral Researcher
+        location: Milan, Italy
+        start_date: 2026-06
+        end_date: present
+        summary: >
+          Working on the MOHYCAM project (Fondazione Cariplo, Territori Sicuri), addressing
+          hydrogeological vulnerabilities at the Belvedere Glacier (Monte Rosa) by combining advanced
+          glacier-dynamics monitoring with community-based risk-awareness strategies.
         highlights:
-          - Relativity
-          - Description 2.
+          - Multi-temporal photogrammetric monitoring of glacier dynamics and related hydrogeological hazards.
+          - Development of automated image-analysis and 3D reconstruction workflows for alpine environments.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: CNR IRPI (Research Institute for Geo-Hydrological Protection)
+        position: Post-doctoral Researcher - Stage II
+        location: Turin, Italy
+        start_date: 2025-07
+        end_date: 2026-06
+        summary: >
+          Automated low-cost image-analysis workflows for glacier-instability risk management at the
+          Planpincieux Glacier (Mont Blanc).
         highlights:
-          - Description 1.
-          - Description 2.
+          - Terrestrial stereoscopic time-lapse cameras for kinematics detection, ice-avalanche monitoring and velocity computation via Digital Image Correlation and Structure-from-Motion.
+          - Results directly supporting expert decision-making for glacier-instability risk mitigation.
+          - Historical aerial photogrammetry for periglacial debris-volume estimation.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
+      - company: University of Zurich, Dept. of Geography
+        position: Post-doctoral Researcher / External Consultant
         location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2024-10
+        end_date: 2025-12
+        summary: >
+          Automated pipelines for regional-to-global scale Digital Elevation Model reconstruction from
+          satellite multi-view stereo for glacier mass-balance assessment.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Contributed to the Glambie-2 Glacier Mass Balance Intercomparison Exercise.
+          - Large-scale geospatial processing on Slurm-based HPC clusters.
+
+      - company: University of Twente, ITC
+        position: Visiting PhD Student
+        location: Enschede, Netherlands
+        start_date: 2022-04
+        end_date: 2022-07
+        summary: Developed a deep-learning wide-baseline stereo matching workflow for 4D alpine glacier monitoring with low-cost time-lapse cameras.
+
+      - company: VAW, ETH Zürich
+        position: Visiting Student (MSc Thesis)
+        location: Zurich, Switzerland
+        start_date: 2019-09
+        end_date: 2020-02
+        summary: River Engineering group — Particle Image Velocimetry and UAV-based estimation of river-flow discharge from image analysis.
+
+      - company: Politecnico di Milano
+        position: Teaching Assistant
+        location: Milan, Italy
+        start_date: 2020
+        end_date: 2024
+        summary: Teaching support and independent lecturing for BSc and MSc courses.
+        highlights:
+          - Photogrammetry and UAV Surveying (MSc), Statistics (BSc), 3D Modelling for Architecture (BSc/MSc), GIS (BSc).
+          - Tutor in the Belvedere Glacier summer schools on topographic surveying in mountain environments (2021-2025).
+
+    Projects:
+      - name: Deep-Image-Matching
+        summary: Core contributor. Toolbox for multi-view image matching combining traditional and deep-learning algorithms for Structure-from-Motion in complex scenarios.
+        highlights:
+          - "https://github.com/3DOM-FBK/deep-image-matching"
+
+      - name: ICEpy4D
+        summary: Lead developer. Open-source Python toolkit for 4D glacier monitoring using deep-learning photogrammetry.
+        highlights:
+          - "https://github.com/franioli/icepy4d"
+
+      - name: COLMAP-SLAM
+        summary: Core contributor. Visual-odometry framework for real-time photogrammetric positioning.
+        highlights:
+          - "https://github.com/3DOM-FBK/COLMAP_SLAM"
+
+      - name: Belvedere Glacier Open Data & Web-GIS
+        summary: Curated long-term open dataset and interactive web platform for glacier documentation and storytelling.
+        highlights:
+          - "Zenodo DOI: 10.5281/zenodo.10817029"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: MSCA Postdoctoral Fellowship — Seal of Excellence
+        date: 2025
+        awarder: European Commission
+        summary: Awarded for the CryoLens proposal in both the 2024 and 2025 calls (evaluation scores 92.8% and 95.4%).
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Premio Giovani 2023 — Sezione Ricerca
+        date: 2023
+        awarder: SIFET (Italian Society of Photogrammetry and Topography)
+        summary: Young-researcher prize for high-frequency 4D monitoring of alpine glaciers with low-cost time-lapse cameras and deep-learning Structure-from-Motion.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: EGU Higher Education Teaching Grant
+        date: 2023
+        awarder: European Geosciences Union
+        summary: Awarded for open teaching material for the summer school on topographic surveys for territorial monitoring in mountain environments.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Open Data Day Mini-Grant
+        date: 2024
+        awarder: Open Knowledge Foundation
+        summary: 'For the webinar "Mapping Climate Change in 4D: Belvedere Glacier''s Open Geo Data for Education and Research".'
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: "Python, MATLAB, C++, Bash/Shell"
+
+      - name: Photogrammetry & 3D
+        keywords: "Agisoft Metashape, COLMAP, MicMac, OpenMVG, OpenDroneMap, CloudCompare, Photomodeler"
+
+      - name: Machine Learning & Vision
+        keywords: "PyTorch, OpenCV, deep feature matching, Structure-from-Motion, Digital Image Correlation"
+
+      - name: Geospatial & Infrastructure
+        keywords: "QGIS, ESRI ArcGIS, PostgreSQL/PostGIS, Docker, Git, Slurm (HPC), Raspberry Pi, Arduino"
 
     Languages:
-      - name: German
+      - name: Italian
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        summary: "Proficient (IELTS C1)"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: UAS License — EASA A2 Open Category with Critical Scenario authorisation
+        issuer: ENAC
+        icon: fa-solid fa-helicopter
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Professional qualification — Esame di Stato for civil and environmental engineers
+        issuer: Republic of Italy
+        icon: fa-solid fa-certificate
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    Volunteer:
+      - company: Servizio Glaciologico Lombardo (SGL)
+        position: Scientific Volunteer
+        location: Italy
+        start_date: 2025
+        end_date: present
+        summary: Field data collection for glacier mass balance and retreat monitoring in Lombardy.
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: Protect Our Winters (POW)
+        position: Volunteer (climate advocacy)
+        start_date: 2025
+        end_date: present
+        summary: Initiatives promoting climate awareness and responsible engagement on climate impacts.
