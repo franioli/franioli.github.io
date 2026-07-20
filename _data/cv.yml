@@ -5,16 +5,12 @@ cv:
   location: Milan, Italy
   image: ""
   summary: >
-    Post-doctoral researcher in Geomatics at Politecnico di Milano, specialising in photogrammetry and
-    geoinformatics for environmental monitoring. My research bridges the gap between traditional
-    photogrammetry and modern computer vision, focusing on deep learning-based image matching and
-    automated 3D reconstruction pipelines. I have experience in multi-scale 4D monitoring, ranging from
-    low-cost terrestrial sensors for high-frequency glacier dynamics to satellite multi-view stereo for
-    regional mass-balance studies (developed at the University of Zurich). I have strong coding skills
-    and experience with HPC for processing large-scale geospatial data. As an advocate for open science
-    I actively develop open-source tools, and my background includes field expertise as a certified UAV
-    pilot and topographer.
-
+    Post-doctoral researcher in Geomatics at Politecnico di Milano (Italy), specializing in photogrammetry and geoinformatics for environmental monitoring. 
+    My research bridges the gap between traditional photogrammetry and modern computer vision, focusing on deep learning image matching and automated 3D reconstruction pipelines, with primary applications in territorial monitoring.
+    I have experience in multi-scale 4D monitoring, ranging from low-cost terrestrial sensors for high-frequency glacier dynamics (developed at Polimi and CNR IRPI) to satellite multi-view stereo for regional mass balance studies (University of Zurich).
+    I have strong coding skills and experience with HPC for processing large-scale geospatial data. 
+    As a strong advocate for open science, I actively develop open-source tools. 
+    My background includes field expertise as a certified UAV pilot and topographer.
   social_networks:
     - network: GitHub
       username: franioli
@@ -164,7 +160,7 @@ cv:
 
     Skills:
       - name: Programming
-        keywords: "Python, MATLAB, C++, Bash/Shell"
+        keywords: "Python, MATLAB, C++ (basic), Bash/Shell"
 
       - name: Photogrammetry & 3D
         keywords: "Agisoft Metashape, COLMAP, MicMac, OpenMVG, OpenDroneMap, CloudCompare, Photomodeler"
