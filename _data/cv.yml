@@ -5,10 +5,15 @@ cv:
   location: Milan, Italy
   image: ""
   summary: >
-    Post-doctoral researcher in Geomatics at Politecnico di Milano, specialised in photogrammetry and
-    geoinformatics for environmental monitoring. My work bridges traditional photogrammetry and modern
-    computer vision, with a focus on deep learning for image matching and automated 3D reconstruction
-    pipelines, from low-cost terrestrial sensors to satellite multi-view stereo.
+    Post-doctoral researcher in Geomatics at Politecnico di Milano, specialising in photogrammetry and
+    geoinformatics for environmental monitoring. My research bridges the gap between traditional
+    photogrammetry and modern computer vision, focusing on deep learning-based image matching and
+    automated 3D reconstruction pipelines. I have experience in multi-scale 4D monitoring, ranging from
+    low-cost terrestrial sensors for high-frequency glacier dynamics to satellite multi-view stereo for
+    regional mass-balance studies (developed at the University of Zurich). I have strong coding skills
+    and experience with HPC for processing large-scale geospatial data. As an advocate for open science
+    I actively develop open-source tools, and my background includes field expertise as a certified UAV
+    pilot and topographer.
 
   social_networks:
     - network: GitHub
@@ -61,12 +66,13 @@ cv:
         start_date: 2026-06
         end_date: Present
         summary: >
-          Working on the MOHYCAM project (Fondazione Cariplo, Territori Sicuri), addressing
-          hydrogeological vulnerabilities at the Belvedere Glacier (Monte Rosa) by combining advanced
-          glacier-dynamics monitoring with community-based risk-awareness strategies.
+          Responsible for WP4 (Integrated real-time monitoring system) of the MOHYCAM project
+          (Fondazione Cariplo, Territori Sicuri), addressing hydrogeological hazards at the Belvedere
+          Glacier (Monte Rosa) and the Anza River.
         highlights:
-          - Multi-temporal photogrammetric monitoring of glacier dynamics and related hydrogeological hazards.
-          - Development of automated image-analysis and 3D reconstruction workflows for alpine environments.
+          - Design and installation of a multi-camera system covering the Belvedere Glacier northern lobe, plus real-time webcams along the River Anza for flood and solid-transport detection.
+          - Automated daily 3D reconstruction of the glacier lobe from time-lapse imagery to derive DEMs, orthophotos and daily ablation rates.
+          - Debris-deposit volume estimation, with GNSS stations and autonomous drone surveys integrated into a unified monitoring framework.
 
       - company: CNR IRPI (Research Institute for Geo-Hydrological Protection)
         position: Post-doctoral Researcher
@@ -75,11 +81,8 @@ cv:
         end_date: 2026-06
         summary: >
           Automated low-cost image-analysis workflows for glacier-instability risk management at the
-          Planpincieux Glacier (Mont Blanc).
-        highlights:
-          - Terrestrial stereoscopic time-lapse cameras for kinematics detection, ice-avalanche monitoring and velocity computation via Digital Image Correlation and Structure-from-Motion.
-          - Results directly supporting expert decision-making for glacier-instability risk mitigation.
-          - Historical aerial photogrammetry for periglacial debris-volume estimation.
+          Planpincieux Glacier (Mont Blanc), using terrestrial stereoscopic time-lapse cameras for
+          kinematics detection, ice-avalanche monitoring and velocity computation.
 
       - company: University of Zurich, Dept. of Geography
         position: Post-doctoral Researcher
