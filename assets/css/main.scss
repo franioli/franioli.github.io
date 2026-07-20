@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ---------------------------------------------------------------------------
+   Site-specific overrides
+   This file shadows al_folio_core's assets/css/main.scss. It is an exact copy
+   of the gem's version with the rules below appended; keep the @use block in
+   sync when the gem updates (tracked in .al-folio-overrides.yml).
+   --------------------------------------------------------------------------- */
+
+/* CV date alignment.
+   The theme renders each date inside `.date-column`, which on >=768px is a
+   flex item sized by `.col-md-2` (`flex: 0 0 16.6667%`) — so the column is
+   ~16.7% wide, not the 75px that `.date-column { width: 75px }` suggests.
+   The badge itself only has `min-width: 75px` and is centred, so a short date
+   ("2025") and a long one ("2026 - Present") end up with different left/right
+   edges and look ragged. Making every badge fill the column gives them all an
+   identical box, so the edges line up. */
+.date-column {
+  // Keeps the badge readable on narrow screens, where the flex basis no longer
+  // applies and the theme's fixed 75px would clip a full date range.
+  width: 120px;
+
+  .badge {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+  }
+}
